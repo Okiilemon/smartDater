@@ -10,6 +10,7 @@
  
 ## 使用方法
 在时间戳的标签内添加自定义属性 data-timestamp
+
 例如：
 &lt;span data-timestamp = ‘1424444639300’&gt;3小时前 &lt;/span&gt; 
 
