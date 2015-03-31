@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SmartDater</title>
+</head>
+<body>
+  <div>
+    <span data-timestamp="1427767944410">
+      <span data-timestamp="1427767944410"></span>
+    </span>
+    <span data-timestamp="1427767944410"></span>
+    <span data-timestamp="1427767944410"></span>
+    <span data-timestamp="1427767944410"></span>
+    <span data-timestamp="1427767944410"></span>
+    <span data-timestamp="1427767944410"></span>
+    <span data-timestamp="1427767944410"></span>
+    <span data-timestamp="1427767944410"></span>
+    <span data-timestamp="1427767944410"></span>
+    <span data-timestamp="1427767944410"></span>
+    <span data-timestamp="1427767944410"></span>
+    <span data-timestamp="1427767944410"></span>
+    <span data-timestamp="1427767944410"></span>
+    <span data-timestamp="1427767944410"></span>
+    <span data-timestamp="1427767944410">
+      <span data-timestamp="1427767944410">
+        <span data-timestamp="1427767944410">
+          <span data-timestamp="1427767944410">
+            <span data-timestamp="1427767944410">
+              <span data-timestamp="1427767944410">
+                <span data-timestamp="1427767944410">
+                  <span data-timestamp="1427767944410"></span>
+                </span>
+              </span>
+            </span>
+          </span>
+        </span>
+      </span>
+    </span>
+  </div>
+  <script src="smartDater.js"></script>
+  <script>
+    window.onload = function () {
+      var node = document.createElement('SPAN');
+      node.setAttribute('data-timestamp', '1427767944410');
+      node.setAttribute("style", "background-color: red;");
+      smartDater.insertNode(node);
+      document.getElementsByTagName('DIV')[0].appendChild(node);
+      if (!smartDater.hasInit) {
+        smartDater.init();
+      }
+    };
+  </script>
+</body>
+</html>
