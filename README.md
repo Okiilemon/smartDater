@@ -11,6 +11,6 @@
 ## 使用方法
 在时间戳的标签内添加自定义属性 data-timestamp
 例如：
-&lt;span&gt; data-timestamp = ‘1424444639300’ &lt;/span&gt; 
+&lt;span data-timestamp = ‘1424444639300’&gt; &lt;/span&gt; 
 
  
